@@ -1,0 +1,91 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /ShopOnline-managerment
+spring:
+  #文件上传大小限制
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+
+    # Redis配置
+  redis:
+    timeout: 10000ms                        # 连接超时时间
+    host: localhost            # Redis服务器地址
+    port: 6379                              # Redis服务器端口
+    database: 0                             # 选择哪个库，默认0库
+    lettuce:
+      pool:
+        max-active: 1024                    # 最大连接数，默认 8
+        max-wait: 10000ms                   # 最大连接阻塞等待时间，单位毫秒，默认 -1
+        max-idle: 200                       # 最大空闲连接，默认 8
+        min-idle: 5                          # 最小空闲连接，默认 0
+
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ShopOnline?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 1           #初始连接数
+      max-active: 20            #最大连接数
+      max-idle: 20              #最大空闲
+      min-idle: 1               #最小空闲
+      max-wait: 60000           #最大等待时间
+  # freemarker 模板引擎
+  freemarker:
+    cache: false
+    charset: UTF-8
+    content-type: text/html;charset=UTF-8
+    enabled: true
+    suffix: .ftl
+    template-loader-path: classpath:/views/
+    # 配置模板里是否可以直接取request的属性 request是别名
+    request-context-attribute: request
+    # 配置将request和session中的键值添加到
+    # AbstractTemplateView类的renderMergedOutputModel方法中的model这个Map参数中
+    expose-request-attributes: true
+    expose-spring-macro-helpers: true
+    # 配置模板里是否可以直接取session的属性 true 是允许
+    expose-session-attributes: true
+    settings:
+      tag_syntax: auto_detect               # 配置标签语法为自动，页面可以将 <> 改为 []，为了区别html 标签
+      template_update_delay: 0              # 模板更新时间，单位秒
+      default_encoding: UTF-8               # 默认编码字符集
+      output_encoding: UTF-8                # 模板输出编码字符集
+      locale: zh_CN                         # 本地化配置
+      date_format: yyyy-MM-dd               # 日期格式化
+      time_format: HH:mm:ss                 # 时间格式化
+      datetime_format: yyyy-MM-dd HH:mm:ss  # 日期时间格式化
+      number_format: 0.##                   # 数字格式化
+      boolean_format: true,false            # boolean格式化
+      # ignore,debug,html_debug,rethrow
+      # 1.TemplateExceptionHandler.IGNORE_HANDLER简单地压制所有异常
+      # 它对处理异常没有任何作用，也不会重新抛出异常，页面可以正常渲染，后台抛异常
+      # 2.TemplateExceptionHandler.DEBUG_HANDLER打印堆栈信息和重新抛出异常。这是默认的异常控制器
+      # 3.TemplateExceptionHandler.HTML_DEBUG_HANDLER和DEBUG_HANDLER相同
+      # 但是可以格式化堆栈跟踪信息，HTML页面，建议使用它而不是DEBUG_HANDLER
+      # 4.TemplateExceptionHandler.RETHROW_HANDLER简单重新抛出所有异常而不会做其他的事情
+      # 5.使用自定义异常类实现TemplateExceptionHandler重写handleTemplateException方法
+    template_exception_handler: html_debug
+#MyBatis
+mybatis:
+  #配置Mybatis数据返回类型别名(默认别名是类名)
+  type-aliases-package: com.cuit.managerment.entity
+  #配置MyBatis Mapper映射文件
+  mapper-locations: classpath:/mapper/*.xml
+  # Mybatis SQL 打印( 方法接口所在的包，不是Mapper. xml所在的包)
+logging:
+  level:
+    com.cuit.managerment.mapper: debug
+# Redis Key
+# 商品分类列表 Key
+goods.category.list.key: goods:category:list:goodsCategoryList
+# Redis Key
+#用户票据key
+user.ticket: user:userTicket
+
+

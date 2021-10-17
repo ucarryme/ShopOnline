@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<!-- 配置生成器 -->
+<generatorConfiguration>
+    <context id="MysqlTables" targetRuntime="MyBatis3">
+        <!-- 生成的Java文件的编码 -->
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <!-- 增加Models ToStirng方法 -->
+        <plugin type="org.mybatis.generator.plugins.ToStringPlugin"/>
+        <!-- 增加Models Serializable实现 -->
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+        <!-- 分页插件 -->
+        <!-- 在example类中增 page 属性，并在mapper.xml的查询中加入page !=null 时的查询 -->
+        <!-- <plugin type="org.mybatis.generator.plugins.MySQLPagerPlugin" /> -->
+        <!-- 在example类中增 offset和limit属性，并在mapper.xml的查询中加入limit ${offset} ,
+       ${limit} 提供在offset和limit>0时的查询 -->
+        <!-- <plugin type="org.mybatis.generator.plugins.MySQLPaginationPlugin"></plugin> -
+       ->
+        <!- 是否去除自动生成的注释 true：是 ： false:否 -->
+        <!-- type指定生成注释使用的对象 -->
+        <commentGenerator type="com.cuit.generator.ShopCommentGenerator">
+            <property name="suppressAllComments" value="false"/>
+        </commentGenerator>
+        <!-- mysql数据库连接配置 -->
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/ShopOnline?
+useUnicode=true&amp;characterEncoding=UTF8&amp;serverTimezone=Asia/Shanghai&amp;tinyInt1isBit=false"
+                        userId="root" password="123456">
+        </jdbcConnection>
+        <!--
+        是否忽略BigDecimals 非必填项
+        自动生成Java对象的时候，会根据number类型的长度不同生成不同的数据类型
+        number长度   Java类型
+        1~4         Short
+        5~9         Integer
+        10~18       Long
+        18+         BigDecimal
+        -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+        <!-- 以下内容，需要改动 -->
+
+        <!-- java类生成的位置 -->
+        <javaModelGenerator targetPackage="com.cuit.generator.entity"
+                            targetProject="src/main/java">
+            <!-- 在targetPackage的基础上，根据数据库的schema再生成一层package，最终生成的类放在这个
+           package下，默认为false -->
+            <property name="enableSubPackages" value="true"/>
+            <!-- 从数据库返回的值去除前后空格 -->
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+        <!-- *Mapper.xml配置文件生成的位置 -->
+        <sqlMapGenerator targetPackage="com.cuit.generator.mapper"
+                         targetProject="src/main/java">
+            <!-- 是否让schema作为包后缀 -->
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+        <!-- java mapper接口生成的位置(interface) -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.cuit.generator.mapper"
+                             targetProject="src/main/java">
+            <!-- 是否让schema作为包后缀 -->
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+        <!--
+        指定数据库表
+        tableName数据库表名
+        domainObjectName生成的实体类名
+        是否需要mapper配置文件加入sql的where条件查询,需要将enableCountByExample等设为true,
+       会生成一个对应domainObjectName的Example类
+        -->
+        <table tableName="t_users" domainObjectName="Users"
+               enableCountByExample="true" enableDeleteByExample="true"
+               enableSelectByExample="true" enableUpdateByExample="true">
+            <!-- 用于insert时，返回主键的编号 -->
+            <generatedKey column="user_id" sqlStatement="MySql" identity="true"/>
+        </table>
+    </context>
+</generatorConfiguration>

@@ -1,0 +1,4 @@
+# 不同环境下读取不同的配置文件
+spring:
+  profiles:
+    active: dev

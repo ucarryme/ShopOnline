@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="663e0341-9aea-4725-bec1-5aff28f854e0" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="jdk-11" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oYQHrN9tK1fESbXJADTYxhI8xd" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShopOnline-portal/src/main/resources/views/cart" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\ShopOnline\ShopOnline-portal\src\main\resources\views\cart" />
+      <recent name="D:\IdeaProjects\ShopOnline\ShopOnline-portal\src\main\resources\views" />
+      <recent name="D:\IdeaProjects\ShopOnline\ShopOnline-portal\src\main\resources\mapper" />
+      <recent name="D:\IdeaProjects\ShopOnline\ShopOnline-portal\src\main\resources\static\images" />
+      <recent name="D:\IdeaProjects\ShopOnline\ShopOnline-managerment\src\main\resources\static\images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cuit.portal.mapper" />
+      <recent name="com.cuit.portal.entity" />
+      <recent name="com.cuit.portal.service.impl" />
+      <recent name="com.cuit.portal.service" />
+      <recent name="com.cuit.portal.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\ShopOnline\ShopOnline-portal\src\main\resources\views\search" />
+      <recent name="D:\IdeaProjects\ShopOnline\ShopOnline-portal\src\main\resources\mapper" />
+      <recent name="D:\IdeaProjects\ShopOnline\ShopOnline-sso\src\main\resources\mapper" />
+      <recent name="D:\IdeaProjects\ShopOnline\ShopOnline-sso\src\main\resources\config" />
+      <recent name="D:\IdeaProjects\ShopOnline\ShopOnline-sso\src\test\java\com\cuit\sso\config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ManagerApplication">
+    <configuration name="Md5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cuit.common.utils.Md5Util" />
+      <module name="ShopOnline-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cuit.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartServiceTest.testAddCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopOnline-portal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cuit.portal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cuit.portal" />
+      <option name="MAIN_CLASS_NAME" value="com.cuit.portal.CartServiceTest" />
+      <option name="METHOD_NAME" value="testAddCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartServiceTest.testGetCartNum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopOnline-portal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cuit.portal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cuit.portal" />
+      <option name="MAIN_CLASS_NAME" value="com.cuit.portal.CartServiceTest" />
+      <option name="METHOD_NAME" value="testGetCartNum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ShopOnline-managerment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cuit.managerment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cuit.managerment.ManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ShopOnline-portal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cuit.portal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cuit.portal.PortalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ManagerApplication" />
+        <item itemvalue="Spring Boot.PortalApplication" />
+        <item itemvalue="JUnit.CartServiceTest.testGetCartNum" />
+        <item itemvalue="JUnit.CartServiceTest.testAddCart" />
+        <item itemvalue="Application.Md5Util" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="663e0341-9aea-4725-bec1-5aff28f854e0" name="Default Changelist" comment="" />
+      <created>1613460958471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613460958471</updated>
+      <workItem from="1613460964394" duration="6572000" />
+      <workItem from="1613554604033" duration="594000" />
+      <workItem from="1613610883614" duration="16838000" />
+      <workItem from="1613698598638" duration="8699000" />
+      <workItem from="1614913005802" duration="13514000" />
+      <workItem from="1615088366824" duration="2477000" />
+      <workItem from="1615129742253" duration="1619000" />
+      <workItem from="1615131386366" duration="5341000" />
+      <workItem from="1615175463949" duration="14920000" />
+      <workItem from="1615260498030" duration="1765000" />
+      <workItem from="1615290395064" duration="2540000" />
+      <workItem from="1615292964062" duration="11207000" />
+      <workItem from="1615377307392" duration="13788000" />
+      <workItem from="1615430074645" duration="17817000" />
+      <workItem from="1615466560330" duration="849000" />
+      <workItem from="1615516307774" duration="4957000" />
+      <workItem from="1615645404937" duration="8336000" />
+      <workItem from="1615729784239" duration="10131000" />
+      <workItem from="1615790030109" duration="12431000" />
+      <workItem from="1615864662385" duration="618000" />
+      <workItem from="1615900556763" duration="9945000" />
+      <workItem from="1615911824471" duration="544000" />
+      <workItem from="1616338199422" duration="442000" />
+      <workItem from="1616373215721" duration="9000" />
+      <workItem from="1617347795893" duration="183000" />
+      <workItem from="1617692815715" duration="3971000" />
+      <workItem from="1617766934972" duration="9280000" />
+      <workItem from="1617850481931" duration="5829000" />
+      <workItem from="1617892277335" duration="6704000" />
+      <workItem from="1617938738698" duration="6815000" />
+      <workItem from="1617962947001" duration="2863000" />
+      <workItem from="1617965855275" duration="122000" />
+      <workItem from="1617966384130" duration="891000" />
+      <workItem from="1618025237327" duration="9287000" />
+      <workItem from="1618057563208" duration="13380000" />
+      <workItem from="1618108370162" duration="9663000" />
+      <workItem from="1618130698645" duration="600000" />
+      <workItem from="1618204293659" duration="1842000" />
+      <workItem from="1618208507597" duration="23198000" />
+      <workItem from="1618314679929" duration="15031000" />
+      <workItem from="1618365855410" duration="27367000" />
+      <workItem from="1618398243643" duration="3821000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

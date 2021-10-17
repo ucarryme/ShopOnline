@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-managerment" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-managerment/src/main/resources/static/fy-alert" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-managerment/src/main/resources/static/images/background.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-managerment/src/main/resources/static/js/doT.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-managerment/src/main/resources/static/layui/css/layui.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-managerment/src/main/resources/static/layui/layui.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-managerment/src/main/resources/views/goods/category/category-add.ftl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-managerment/src/main/resources/views/goods/category/category-list.ftl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-managerment/src/main/resources/views/goods/goods-add.ftl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-managerment/src/main/resources/views/goods/goods-list.ftl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-managerment/src/main/resources/views/index.ftl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-managerment/src/main/resources/views/login.ftl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-managerment/src/main/resources/views/welcome.ftl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-portal/src/main/resources/static/images/logo.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-portal/src/main/resources/views/cart/cartList.ftl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-portal/src/main/resources/views/index.ftl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-portal/src/main/resources/views/login.ftl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-portal/src/main/resources/views/search/doSearch.ftl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-rpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopOnline-sso" charset="UTF-8" />
+  </component>
+</project>
